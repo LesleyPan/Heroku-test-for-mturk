@@ -32,6 +32,12 @@ SESSION_CONFIGS = [
         app_sequence=['gdpr_consent','Game', 'p1_survey', 'Survey', 'Interaction', 'p2_survey', 'end_survey', 'payment_info'],
         num_demo_participants=16
     ),
+    dict(
+        name="Full_Experiment_p2",
+        display_name="Full experiment_p2",
+        app_sequence=['gdpr_consent','Survey', 'Interaction', 'p2_survey', 'end_survey', 'payment_info'],
+        num_demo_participants=16
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
