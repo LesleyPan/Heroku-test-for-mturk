@@ -29,7 +29,7 @@ SESSION_CONFIGS = [
     dict(
         name="Full_Experiment_surveys",
         display_name="Full experiment",
-        app_sequence=['Game', 'p1_survey', 'Survey', 'Interaction', 'p2_survey', 'end_survey', 'payment_info'],
+        app_sequence=['gdpr_consent','Game', 'p1_survey', 'Survey', 'Interaction', 'p2_survey', 'end_survey', 'payment_info'],
         num_demo_participants=16
     ),
 ]
